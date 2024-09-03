@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    direction: rtl; /* تغيير الاتجاه إلى اليمين */
+    text-align: right; /* نص من اليمين إلى اليسار */
+}
+.admin{
+    width: fit-content !important
+}
+body {
+    background-color: #222222;
+    color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 900px;
+    width: 90%;
+    padding: 20px;
+    border: 1px solid #00ff92;
+    border-radius: 10px;
+    background-color: #333333;
+    
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #00ff92;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #f0f0f0;
+}
+
+.subject-selection h2 {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    color: #f0f0f0;
+}
+
+.subject {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.subject label {
+    font-size: 20px;
+    margin-left: 10px; /* تعديل للمسافة على اليسار بدلاً من اليمين */
+    display: inline-block;
+    width: 150px;
+    color: #f0f0f0;
+
+}
+
+.subject input {
+    width: calc(100% - 220px);
+    padding: 8px;
+    border: 1px solid #00ff92;
+    border-radius: 5px;
+    background-color: #444444;
+    color: #f0f0f0;
+    margin-left: 10px;
+}
+
+.submit-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00ff92;
+    color: #f0f0f0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.submit-btn:hover {
+    background-color: #00cc7a;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #f0f0f0;
+}
+
+footer p {
+    margin-bottom: 5px;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    .subject label {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .subject input {
+        width: 100%;
+    }
+
+    .subject-selection h2 {
+        font-size: 1.5rem;
+    }
+    
+    
+
+}

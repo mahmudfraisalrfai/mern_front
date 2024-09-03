@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    direction: rtl; /* تغيير الاتجاه إلى اليمين */
+    text-align: right; /* نص من اليمين إلى اليسار */
+}
+
+body {
+    background-image: url('../../image/Gaming0_generated.jpg')!important;
+    background-size: cover !important;
+    color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    min-height: 100vh;
+}
+
+.quiz-container {
+    
+    
+    padding: 20px;
+    border: 1px solid #00ff92;
+    border-radius: 10px;
+    margin: 20px;
+
+}
+
+h1 {
+    text-align: center;
+    color: #00ff92;
+    margin-bottom: 20px;
+}
+.subject{
+    color: #f0f0f0;
+}
+
+.responsive-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    color: #00ff92;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.responsive-table h3 {
+    border: 4px solid #00ff92;
+    padding: 10px;
+    text-align: right;
+    color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.responsive-table h3:hover {
+    cursor: pointer;
+    color: #222222;
+    background-color: #00ff92;
+    transition: 1s;
+    border-color: #222222;
+}
+
+
+.responsive-table h1 {
+    background-color: #444444;
+}
+
+
+
+.back-link {
+    width: fit-content;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 0 10px 10px 0px;
+    background-color: #00ff92;
+    color: #222222;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    position: relative;
+}
+.back-link::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -40px;
+    transform: translateY(-50%);
+    border-top: 23px solid transparent;
+    border-bottom: 23px solid transparent;
+    border-right: 40px solid #00ff92;
+
+} 
+.back-link:hover {
+    background-color: #00cc7a;
+}
+ 
+@media (max-width: 600px) {
+    .quiz-container {
+        padding: 10px;
+    }
+
+
+    .responsive-table h3 {
+        padding: 5px;
+    }
+    
+    .back-link {
+        width: 50%;
+        text-align: center;
+        padding: 12px 0;
+    }
+} 

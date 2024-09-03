@@ -1,0 +1,19 @@
+.all-container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
+}
+
+
+.move{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+    .next{
+      border-radius: 10px 40px 40px 10px;
+    }
+    .prev{
+      border-radius: 40px 10px 10px 40px;
+    }

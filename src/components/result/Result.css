@@ -1,0 +1,65 @@
+.container {
+    background-color: #222222;
+    color: #f0f0f0;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #00ff92;
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    align-items: flex-end;;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 17px;
+  }
+  
+  .title {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  p{
+    font-size: 20px;
+  }
+  .scoreText {
+   
+    margin-bottom: 20px;
+  }
+  
+  .summaryContainer {
+    margin-bottom: 30px;
+  }
+  
+  .summaryTitle {
+   
+    margin-bottom: 10px;
+  }
+  
+  .correctText {
+    color: #00ff92;
+  
+    margin-bottom: 10px;
+  }
+  
+  .wrongText {
+    color: #ff4d4d;
+  
+    margin-bottom: 10px;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #00ff92;
+    color: #222222;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
